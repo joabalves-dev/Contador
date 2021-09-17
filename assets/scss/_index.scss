@@ -1,0 +1,29 @@
+@use 'base';
+
+/* Index.html */
+
+.subtitle {
+    margin-bottom: 15px;
+    color: base.$color-white;
+    font-weight: 400;
+}
+
+form {
+    input {
+        display: block;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        text-transform: uppercase;
+        color: base.$color-white;
+        background: base.$color-secundary;
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+}

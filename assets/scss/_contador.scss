@@ -1,0 +1,40 @@
+@use 'base';
+
+header {
+    min-height: 10vh;
+    padding-top: 30px;
+
+    .title {
+        margin: 0;
+    }
+}
+
+main {
+    h1 {
+        color: base.$color-secundary;
+        font-size: clamp(1vw, 4rem, 8vw);
+        margin-bottom: 30px;
+    }
+
+    .time {
+        display: flex;
+        gap: 30px;
+
+        &-item{
+            text-align: center;
+            h1 {
+                font-size: clamp(1vw ,6rem , 8vw);
+                color: base.$color-white;
+                margin: 0;
+    
+            }
+    
+            span {
+                display: block;
+                color: base.$color-primary;
+                text-transform: capitalize;
+                font-size: clamp(0.8vw,1.5rem, 4vw);
+            }
+        }
+    }
+}
